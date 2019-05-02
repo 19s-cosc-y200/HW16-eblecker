@@ -1,0 +1,119 @@
+/*
+Author: Emilie Blecker
+
+
+
+
+*/
+
+body
+{
+    font-family: Arial;
+    list-style-position: inside;
+    background-image: url(palm-li.png);
+    background-size: 200px 200px;
+    display: block;
+}
+
+header
+{
+    color: whitesmoke;
+    height: 100px;
+    background-image: url("logofino.jpg");
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+}
+
+h1
+{  
+    padding-left: 6em;  
+    padding-bottom: 1em;
+    text-shadow: 2px 2px 4px #000000;
+    position: center;
+}
+
+nav
+{
+    background-color: hotpink;
+    float: left;
+    text-align: center;
+    position: fixed;
+    left: 20px;
+    overflow-x: hidden;
+}
+
+nav a
+{   
+    text-decoration: none;  
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 200%;
+    text-shadow:  0 0 .5em whitesmoke, 0 0 0.2em blue;
+}
+
+nav a:link {color: #ffffff;}
+nav a:visited {color: #c2e0f0;}
+nav a:hover {color: #cccccc;}
+
+nav ul{ list-style-type: none; padding-left: 0px; }
+
+main
+{
+    background-color: whitesmoke;
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 170px;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2
+{ 
+    background-color: rgb(245, 197, 204);
+    color:#3399cc; 
+    font-family: Arial;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: rgb(59, 154, 243);
+    text-align: center;
+}
+
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    font-size: .7em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+header, nav, main, footer { display: block; }
+
+/*Create and link a unified external style sheet for all pages. You must at the minimum define and describe the body, h1, h2, main, nav, footer, and img elements.
+The css file must also include at least one class definition that you must use somewhere in your html pages.
+Find or create a repeating texture image background for your site. Include it in the body tag in the css file and repeat it as appropriate to the image. There many sites out there that will provide you with a good, simple background for free. Here are a few (you are absolutely not limited to these):
+http://subtlepatterns.com/
+http://www.pixeden.com/graphic-web-backgrounds
+http://bgrepeat.com/
+http://plaidmaker.com/ (this one is really fun!)
+Create an appropriate logo header image and include it in all of your pages. This should have the name of your company/organization in a stylized manner. Look at the previous assignments for examples. You can use any image editing program, but I recommend GIMP. It is simple, free, and works on most any computer. You can also use PIXLR Editor online, but I find it can be a bit unwieldy. When designing your logo, keep it simple! You can certainly be creative. but don't get distracted making it too fancy. The image size should be less than 700x150 pixels. Make sure this is saved as a gif image with an appropriate transparent color selected.
+Create a simple logo image for your company/organization. For simplicity sake, make it no larger than 200x200 pixels and keep it as square as possible. Make sure this is saved as a gif image with an appropriate transparent color selected. Include this image somewhere in your main index page.
+
+Convert a copy of your logo image into a favicon and use it for each page of the site.
+ There are many free online (and offline) converters available.
+  I recommend using http://www.icoconverter.com or http://image.online-convert.com/convert-to-ico or even better yet http://icoconvert.com/. Convert your .gif file into a 16 pixel, 32-bit .ico file.
+Upload your files to for grading through the GitHub link above. You do not need to upload them to your website, yet...
+*/
+
+
